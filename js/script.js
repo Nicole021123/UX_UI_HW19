@@ -25,6 +25,6 @@ $(document).ready(function(){
     });
   });
 
-  $("#p1").css("color", "blue",)
+  $("#p1").css("color", "pink",)
   .slideUp(2000)
   .slideDown(2000);

@@ -59,8 +59,7 @@ body {
         padding-bottom: 50px;
         align-items: center;
         background-color: #fffff;
-        padding-top: 50px;
-  }
+   }
   
   .content {
       width: 400px;
@@ -162,6 +161,7 @@ body {
     width: 200px;
     padding: 0 0 6% 0;
     align-self: center;
+    border-radius: 8px;
   }
   
   #mySkills-container p {
@@ -270,13 +270,14 @@ body {
     background-color:white;
     justify-self: center;
     align-self: center;
-    padding: 10px;
+    padding: 15px;
     margin: 16px;
+    height: auto;
   }
   
 
   h3 {
-      color: #f1caaa;
+      color: pink;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: xx-large;
     }
