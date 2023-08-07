@@ -4,10 +4,11 @@ html {
 
 body {
     margin: 0% auto;
-  }
+    background-color: #f1caaa28;
+}
   
   .navigation {
-      background-color: #373738;
+      background-color: #364646;
       width: 100%;
       top: 0px;
       position: fixed;
@@ -35,10 +36,10 @@ body {
   .name{
     text-align: center;
     vertical-align: middle;
-  }
+    }
   
   nav ul {
-    color:white;
+    color: #f1caaa;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     list-style: none;
@@ -48,6 +49,7 @@ body {
   nav ul li {
     margin-left: 20px;
   }
+  
   p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -56,7 +58,7 @@ body {
   .heroImg {
         padding-bottom: 50px;
         align-items: center;
-        background-color: #986ba5;
+        background-color: #fffff;
         padding-top: 50px;
   }
   
@@ -68,7 +70,7 @@ body {
   }
   
   footer {
-      background-color: #373738;
+      background-color: #364646;
       width: 100%;
       bottom: 0px;
       position: sticky;
@@ -85,7 +87,7 @@ body {
   
   a:link {
       color: white;
-      text-decoration: none;
+      text-decoration: line;
   }
   a:visited {
       color: white;
@@ -96,7 +98,7 @@ body {
       text-decoration: none;
   }
   a:active {
-      color:white;
+      color: white;
       text-decoration: none;
   }
   
@@ -124,7 +126,7 @@ body {
   * {
     box-sizing: border-box;
     margin: 0px 0px 0px 0px;
-    padding: 0 0 0 0;
+    padding: 0 5px 0 0;
   }
   
   #mySkills-container {
@@ -133,8 +135,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
     padding: 3% 3% 5% 3%;
+    background-color: white;
   }
   
   #mySkills-container > h1 {
@@ -151,7 +153,7 @@ body {
     flex-direction: column;
     align-items: center;
     max-width: 31%;
-    min-height: 300px;
+    min-height: 150px;
   }
   
   #mySkills-container img { 
@@ -209,7 +211,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     justify-items: center;
-    background-color: lavender;
+    background-color: #4d7d7d57;
     border: solid grey 2px;
     border-radius: 10px;
     box-shadow: .55em .55em #bbb;
@@ -237,15 +239,15 @@ body {
     width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: start;
   } 
   .cardTitle {
-    line-height: 2em;
+    line-height: 1em;
   }
   .cardCTA {
     align-self: end;
-    background-color: snow;
+    background-color: #f1caaa;
     margin-top: 3%;
   }
   
@@ -257,18 +259,35 @@ body {
     text-align: center; /* centers text in button */
     letter-spacing: .13em; 
     white-space: nowrap;
+    width: 50%;
     }
   
   .sectionCTA {
     width: 25%;
-    background-color: snow;
+    background-color:#f1caaa;
     justify-self: center;
     align-self: center;
     padding: 10px;
     margin: 16px;
   }
   
-    .cta {
+  .cta {
     width: 80%;
     }
 
+  h3 {
+      color: #f1caaa;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: xx-large;
+    }
+
+.logo-name-together {
+      display: flex;
+      align-items: center;
+    }
+
+h4 {
+  color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: xx-large;
+}
