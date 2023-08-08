@@ -169,7 +169,7 @@ body {
   }
   
   /* responsive css properties done with media queries below */
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 600px) {
     #mySkills-container {
       flex-direction: column;
       justify-content: flex-start;
@@ -235,7 +235,6 @@ body {
     padding-left: 20px;
     object-fit:contain; /* ensures image is always proportionate when size changes due to responsiveness */
   }
-    
 
   .cardRight-details {
     width: 90%;
@@ -265,6 +264,7 @@ body {
     width: 50%;
     }
   
+ 
   .sectionCTA {
     width: 25%;
     background-color:white;
@@ -272,9 +272,8 @@ body {
     align-self: center;
     padding: 15px;
     margin: 16px;
-    height: auto;
+    white-space: nowrap;
   }
-  
 
   h3 {
       color: pink;
