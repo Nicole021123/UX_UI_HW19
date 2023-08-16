@@ -87,7 +87,7 @@ body {
   
   a:link {
       color: white;
-      text-decoration: line;
+      text-decoration: none;
   }
   a:visited {
       color: white;
@@ -292,6 +292,12 @@ h4 {
       font-size: xx-large;
 }
 
-a {
-  cursor: pointer;
+#CSLink {
+  color: black;
+  text-decoration: none;
+}
+
+#CSLink visited {
+  color: black;
+  text-decoration: none;
 }
